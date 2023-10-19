@@ -1,0 +1,11 @@
+window = this;
+var location={};
+var navigator = {};
+var screen={};
+var document={};
+var better = {};
+window = better_proxy(window, "window");
+location = better_proxy(location, "location");
+navigator = better_proxy(navigator, "navigator");
+screen = better_proxy(screen,"screen");
+document = better_proxy(document, "document");
