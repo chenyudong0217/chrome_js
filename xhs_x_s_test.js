@@ -598,14 +598,6 @@ var canvas = {
 }
 )();
 
-var i={
-    "keyword": "理财爆雷",
-    "page": 1,
-    "page_size": 20,
-    "search_id": "2c7msaloaqq8gkdykjjee",
-    "sort": "time_descending",
-    "note_type": 0,
-    "image_scenes": "FD_PRV_WEBP,FD_WM_WEBP"
-}
+var i={"keyword":"暴雷","page":1,"page_size":20,"search_id":"2ccd36m5fg4eneltuoo4n","sort":"general","note_type":0,"image_scenes":"FD_PRV_WEBP,FD_WM_WEBP"}
 var x_s = window._webmsxyw('/api/sns/web/v1/search/notes',i)
 console.log(x_s)
